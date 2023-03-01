@@ -3,8 +3,7 @@ import ReactDom from 'react-dom'
 
 import Header from "./components/header";
 
-import './styles/style.css'
-
+// import './styles/style.css'
 const App = () => (
     <Header/>
     // <React.Fragment>
@@ -13,6 +12,15 @@ const App = () => (
     // </React.Fragment>
 )
 ReactDom.render(<App/>, document.getElementById('root'))
+
+// const App = () => (
+//     <Header/>
+//     // <React.Fragment>
+//     //     <Header/>
+//     //
+//     // </React.Fragment>
+// )
+// ReactDom.render(<App/>, document.getElementById('root'))
 
 // import React from 'react'
 // import ReactDom from 'react-dom'
