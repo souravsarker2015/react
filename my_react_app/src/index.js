@@ -1,14 +1,30 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-const App = () => (
-    <React.Fragment>
-        <h1>hello</h1>
-        <h1>hello</h1>
+import Header from "./components/header";
 
-    </React.Fragment>
+import './styles/style.css'
+
+const App = () => (
+    <Header/>
+    // <React.Fragment>
+    //     <Header/>
+    //
+    // </React.Fragment>
 )
 ReactDom.render(<App/>, document.getElementById('root'))
+
+// import React from 'react'
+// import ReactDom from 'react-dom'
+//
+// const App = () => (
+//     <React.Fragment>
+//         <h1>hello</h1>
+//         <h1>hello</h1>
+//
+//     </React.Fragment>
+// )
+// ReactDom.render(<App/>, document.getElementById('root'))
 
 // const App = () => (
 //     <div className={'first_class'}>

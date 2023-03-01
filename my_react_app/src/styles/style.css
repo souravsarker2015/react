@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: blue;
+}
+
+.logo {
+    color: yellow;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+}
